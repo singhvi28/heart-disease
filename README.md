@@ -1,4 +1,4 @@
-# Heart Failure
+# Heart Disease Analysis and Prediction
 
 Dataset - https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
@@ -23,9 +23,9 @@ This project involves developing a heart disease prediction model using traditio
 The project applies Exploratory Data Analysis (EDA) and Statistical Analysis to uncover patterns, relationships, and insights that aid in building accurate models.
 
 ## Project Structure
-- **Data Preprocessing**: Handled categorical variables using one-hot encoding and scaled numerical features when necessary. The dataset was split into training (80%) and testing (20%) sets to evaluate model performance.
 - **Exploratory Data Analysis (EDA)**: Visualized the data distribution and relationships using histograms, box plots, and correlation heatmaps to understand the structure and identify patterns.
 - **Statistical Analysis**: Used chi-square tests and t-tests to explore relationships between categorical and numerical variables to assess their significance in heart disease prediction.
+- **Data Preprocessing**: Handled categorical variables using one-hot encoding and scaled numerical features when necessary. The dataset was split into training (80%) and testing (20%) sets to evaluate model performance.
 - **Machine Learning Models**: Trained and evaluated multiple machine learning models, including:
   - Logistic Regression (Test Accuracy: 85.33%)
   - Support Vector Machine Classifier (Test Accuracy: 86.41%)
