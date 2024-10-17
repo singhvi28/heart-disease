@@ -28,14 +28,14 @@ The project applies Exploratory Data Analysis (EDA) and Statistical Analysis to 
 - **Statistical Analysis**: Used chi-square tests and t-tests to explore relationships between categorical and numerical variables to assess their significance in heart disease prediction.
 - **Machine Learning Models**: Trained and evaluated multiple machine learning models, including:
   - Logistic Regression (Test Accuracy: 85.33%)
-  - Support Vector Machine (SVM) (Test Accuracy: 86.41%)
-  - Random Forest (Test Accuracy: 85.33%)
-  - XGBoost (Test Accuracy: 88.04%)
+  - Support Vector Machine Classifier (Test Accuracy: 86.41%)
+  - Random Forest Classifier (Test Accuracy: 85.33%)
+  - XGBoost Classifier (Test Accuracy: 88.04%)
 
 The models were tuned to address overfitting and improve generalization using techniques such as hyperparameter adjustment, cross-validation, and regularization.
 
 ## Results
-XGBoost achieved the highest accuracy (88.04%), while SVM also performed well (86.41%). These results highlight the effectiveness of ensemble methods and regularization techniques in improving predictive accuracy. Detailed evaluation metrics and model comparisons are included in the notebook.
+The XGBoost Classifier achieved the highest accuracy (88.04%), while the SVM Classifier also performed well (86.41%). These results highlight the effectiveness of ensemble methods and regularization techniques in improving predictive accuracy. Detailed evaluation metrics and model comparisons are included in the notebook.
 
 ## Key Takeaways
 - Gained insights into data analysis and visualization techniques for healthcare data using `matplotlib` and `seaborn`.
