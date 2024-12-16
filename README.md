@@ -29,13 +29,13 @@ The project applies Exploratory Data Analysis (EDA) and Statistical Analysis to 
 - **Machine Learning Models**: Trained and evaluated multiple machine learning models, including:
   - Logistic Regression (Test Accuracy: 85.33%)
   - Support Vector Machine Classifier (Test Accuracy: 86.41%)
-  - Random Forest Classifier (Test Accuracy: 85.33%)
+  - Random Forest Classifier (Test Accuracy: 88.04%)
   - XGBoost Classifier (Test Accuracy: 88.04%)
 
 The models were tuned to address overfitting and improve generalization using techniques such as hyperparameter adjustment, cross-validation, and regularization.
 
 ## Results
-The XGBoost Classifier achieved the highest accuracy (88.04%), while the SVM Classifier also performed well (86.41%). These results highlight the effectiveness of ensemble methods and regularization techniques in improving predictive accuracy. Detailed evaluation metrics and model comparisons are included in the notebook.
+The Random Forest and XGBoost Classifiers both achieved the highest accuracy (88.04%), demonstrating their effectiveness in handling structured healthcare data. However, a deeper analysis revealed that the Random Forest model was better suited for this context as it minimised false negatives, a critical factor in healthcare applications where failing to identify a patient with heart disease can have severe consequences.<br>Detailed evaluation metrics, including confusion matrices and classification reports, are provided in the accompanying notebook.
 
 ## Key Takeaways
 - Gained insights into data analysis and visualization techniques for healthcare data using `matplotlib` and `seaborn`.
