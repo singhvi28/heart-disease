@@ -27,7 +27,7 @@ The project applies Exploratory Data Analysis (EDA) and Statistical Analysis to 
 - **Statistical Analysis**: Used chi-square tests and t-tests to explore relationships between categorical and numerical variables to assess their significance in heart disease prediction.
 - **Data Preprocessing**: Handled categorical variables using one-hot encoding and scaled numerical features when necessary. The dataset was split into training (80%) and testing (20%) sets to evaluate model performance.
 - **Machine Learning Models**: Trained and evaluated multiple machine learning models, including:
-  - Logistic Regression (Test Accuracy: 85.33%)
+  - Logistic Regression (Test Accuracy: 85.87%)
   - Support Vector Machine Classifier (Test Accuracy: 86.41%)
   - Random Forest Classifier (Test Accuracy: 88.04%)
   - XGBoost Classifier (Test Accuracy: 88.04%)
